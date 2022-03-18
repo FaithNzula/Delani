@@ -30,22 +30,26 @@
     height: 40vh;
     }
 
-    .whatwedo {
-    text-align: center;
-    padding-top: 40px;
-    width: 100%;}
+   
 
  .services-cards {
     display: flex;
     justify-content: space-around;
   }
-  .what-we-do .headings {
-    padding-bottom: 38px;
-  }
+  
+  
   .contact {
-    background-image: url("../images/Backgrounds/c_image.jpg");
+    background-image: url("/IP3-master/assets/backgrounds/c_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color:rgba(20,20, 20, 20);
+  }
+  input[type="text"],
+  input[type="email"],
+  #comment {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    
   }
