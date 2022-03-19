@@ -109,20 +109,23 @@
               </div>
             </div>
         </div> 
-         <div class="container-fluid contact">
-            <h2>CONTACT US</h2>
+ <div class="container-fluid contact">
+    <h2>CONTACT US</h2>
 
-            <form id="form-Delani" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST"></form>
-            <input type="hidden" name="u" value="1234"> 
-            <input type="hidden" name="id" value="1234">
-  <div class="form-group form-inline">
-    <input type="text" class="form-control" placeholder = "Name...." name="row1" id="row1" >
-    <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="row2" id="row2" >
+ 
+ <form id="form">
+  <div>
+    <input id="text" class="form-control" placeholder = "Name...." required minlength='4' maxlength='20' >
+    <span id='name-too-short' hidden>Name is too short</span>
+  <span id='name-too-long' hidden>Name is too long</span>
+    <input id="email" class="form-control"  placeholder = "Email...." required pattern="[^@]+@[^\.]+\..+"> >
   </div>
+ </form>
   <div class="form-group">
-    <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+    <textarea class="form-control" rows="10" id="comment" placeholder = "Your message here...."></textarea>
   </div>
   <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+  </div>
 </form>
       </div>
  <footer>
@@ -139,7 +142,11 @@
 <br>
 <p>DELANI STUDIO</p>
 <p>2019</p>
-</footer>     
+</footer>  
+
+    <script src="app.js"></script>
+</body>  
+</html> 
 
 
     
