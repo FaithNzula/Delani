@@ -1,152 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
     <title>DELANI STUDIO</title>
-    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<div class="home-page"> 
-    <div class="logo">
-            <img src="/IP3-master/assets/logo/logo.png" alt="logo"><br>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <img src="assets/logo/logo.png" alt="logo"> <br><br>
+        <h1>WELCOME</h1><br>
+        <h1>TO DELANI STUDIO</h1>
+        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p><br>
+        <img src="assets/mouse_click.png" link="about" alt="">
     </div>
-    <div class="content">
-        <br><div><h1>WELCOME</h1></div>
-        <br><h1>TO DELANI STUDIO</h1>
-        <br><p>AMAIZING PEOPLE ARE MAKING AMAIZING DESIGNS IN A FUN ENVIRONMENT</p>
-     <img src="/IP3-master/assets/mouse_click.png" link="about" >
+</div>
+
+<div class="container" id="about_us">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm text-center">
+            <h2>ABOUT US</h2>
+        </div>
+        <div class="col-sm">
+        </div>
+
+    </div>
+    <div class="row" style="padding-bottom: 50px">
+        <div class="container-fluid">
+            <p class="text-center">When you work with us, you are a prt of a team of committed collaborators. All
+                aspects of our software
+                development process are integrated,interactive and agile</p>
+            <p class="text-center">Our approach unifies design, development and product management to create exceptional
+                products.</p>
+            <p class="text-center">We start each project by understanding your business goals,the user's needs and the
+                product requirements</p>
+            <p class="text-center">Then we help translate them into effective and elegant solutions</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="services">
+    <div class="row" style="padding-top: 150px">
+        <h2 class="text-white text-center">SERVICES</h2>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <p class="text-white text-center">Before we sign a contract or write a line of code our team will spend the
+                necessary time needed to understand
+                your product vision</p>
+            <p class="text-white text-center">the outcome of this scoping sessionis a proposal or high-level statement
+                of work.</p>
+            <p class="text-white text-center">based on your requirements, we can provide a complete offering or just the
+                pieces you read.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" style="padding-top: 70px">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm" style="padding-left: 100px">
+            <h2>WHAT WE DO</h2>
+        </div>
+        <div class="col-sm">
+        </div>
+
+    </div>
+    <div class="row" style="padding-bottom: 50px">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/services_icons/dev_icon.png" class="float-right" alt="development"><br>
+                <a href="#design" style="color: black; text-decoration: none;" data-bs-toggle="collapse">DESIGN</a>
+                <div class="collapse hide" id="design">
+                    <div class="card card-body">
+                        All engineers are fluent in the latest enterprise, mobile and web development technologies
+                        They collaborate with your team to write, and improve code on a daily basis, using proven
+                        practices such
+                        as test-driven development and pair programming
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4" style="padding-left: 100px">
+                    <img src="assets/services_icons/dev_icon.png" class="float-right" alt="development">
+                    <p>DEVELOPMENT</p>
+                    <div class="collapse hide" id="development">
+                        <h2 class="title">DEVELOPMENT</h2>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development
+                            technologies.</p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices such
+                            as test-driven development and pair programming.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding-left: 200px">
+                    <img src="assets/services_icons/product_icon.png" class="float-right" alt="product">
+                    <p class="text-left">PRODUCT MANAGEMENT</p>
+                    <div class="collapse hide" id="product">
+                        <h2 class="title">PRODUCT MANAGEMENT</h2>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development
+                            technologies.</p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices such
+                            as test-driven development and pair programming.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-</div>
-
-<div class="about">
-    <br><br><h2>ABOUT US</h2>
-    <br><p>when you work with us, you are a prt of a team of committed collaborators. All aspects of our software development process are intergrated,interactiveand agile</p>
-    <br><p>Our approach unifies design, development and product management to create exceptional products.</p>
-    <br><p>We start each project by understanding your business goals,the user's needs and the product requirements</p>
-    <br><p>Then we help translate them into effective and ellegant solutions</p>
-</div>
-<div class="services">
-<br><br><br><br><br><p><h2>SERVICES</h2></p>
-<P><br>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</P>
-<p><br>the outcome of this scoping sessionis a proposal or high-level statement of work.</p>
-<p><br>based on your requirements, we can provide a complete offering or just the pieces you read.</p>
-</div>
-<br><div class="whatwedo"></div>
-<h3>WHAT WE DO</h3>
-<div class="services-cards">
-    <div class="col-md-4">
-        <div id="design">
-            <h2 class="title">DESIGN</h2>
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-              <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-          </div>
-          <div id="design-image">
-            <img src="/IP3-master/assets/services_icons/design_icon.png" alt="design">
-            <p>DESIGN</p>
-          </div>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h2 class="title-a">
+                            PORTFOLIO
+                        </h2>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work3.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work4.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work5.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work6.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work7.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="work-box">
+                        <div class="work-img">
+                            <img src="assets/portfolio/work8.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <div id="development">
-              <h2 class="title">DEVELOPMENT</h2>
-              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                 <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-            </div>
-            <div id="development-image">
-              <img src="/IP3-master/assets/services_icons/dev_icon.png" alt="development">
-              <P>DEVELOPMENT</P>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div id="product">
-              <h2 class="title">PRODUCT MANAGEMENT</h2>
-              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-              <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-            </div>
-            <div id="product-image">
-              <img src="/IP3-master/assets/services_icons/product_icon.png" alt="product">
-              <P>PRODUCT MANAGEMENT</P>
-            </div>
-          </div>
+    </section><!-- End Portfolio Section -->
+    <div class="container-fluid" id="contact_us">
+        <div class="row" style="padding-top: 50px">
+            <h2 class="text-white text-center">CONTACT US</h2>
         </div>
-      </div>
-      <div class="portfolio">
-        <h2>PORTFOLIO</h2>
-        <div class="row" id="portfolio">
-          <div class="col-md-3" id="work1">
-            <img src="/IP3-master/assets/portfolio/work1.jpg" alt="work1">
-            <p id="outlook"class="text">Black Studio</p>
-          </div>
-          <div class="col-md-3" id="work2">
-            <img src="/IP3-master/assets/portfolio/work2.jpg" alt="work2" id="work2">
-            <p id="outlook2" class="text">Ontario Security</p>
-          </div>
-          <div class="col-md-3" id="work3">
-            <img src="/IP3-master/assets/portfolio/work3.jpg" alt="work3">
-            <p id="outlook3"class="text">Pyramids</p>
-          </div>
-          <div class="col-md-3" id="work4">
-            <img src="/IP3-master/assets/portfolio/work4.jpg" alt="work4">
-            <p id="outlook4" class="text">Jim Carry</p>
-          </div>
-            <div class="col-md-3" id="work5">
-              <img src="/IP3-master/assets/portfolio/work5.jpg" alt="work1">
-              <p id="outlook5" class="text">Have A Nice Day</p>
-            </div>
-            <div class="col-md-3" id="work6">
-              <img src="/IP3-master/assets/portfolio/work6.jpg" alt="work2">
-              <p id="outlook6"class="text">Calculator</p>
-            </div>
-            <div class="col-md-3" id="work7">
-                <img src="/IP3-master/assets/portfolio/work7.jpg" alt="work3">
-                <p id="outlook7" class="text">Burned</p>
-              </div>
-              <div class="col-md-3" id="work8">
-                <img src="/IP3-master/assets/portfolio/work8.jpg" alt="work4">
-                <p id="outlook8" class="text">Giraffe Restaurant</p>
-              </div>
-            </div>
-        </div> 
- <div class="container-fluid contact">
-    <h2>CONTACT US</h2>
+        <div class="container">
+            <!-- Bootstrap 5 starter form -->
+            <form id="contactForm" style="background-color: transparent">
+                <!-- Name input -->
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label" for="name"></label>
+                        <input class="form-control transparent-input" id="name" type="text" placeholder="Name..."
+                               data-sb-validations="required"/>
+                    </div>
 
- 
- <form id="form">
-  <div>
-    <input id="text" class="form-control" placeholder = "Name...." required minlength='4' maxlength='20' >
-    <span id='name-too-short' hidden>Name is too short</span>
-  <span id='name-too-long' hidden>Name is too long</span>
-    <input id="email" class="form-control"  placeholder = "Email...." required pattern="[^@]+@[^\.]+\..+"> >
-  </div>
- </form>
-  <div class="form-group">
-    <textarea class="form-control" rows="10" id="comment" placeholder = "Your message here...."></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary col-md-1">Submit</button>
-  </div>
-</form>
-      </div>
- <footer>
-<img src="/images/twitter.png" alt="twitter">
-<img src="/images/dribble.png" alt="dribble">
-<img src="/images/facebook.png" alt="facebook">
-<img src="/images/g_plus.png" alt="g_plus">
-<img src="/images/skype.png" alt="skype">
-<img src="/images/stumble_upon.png" alt="stumble_upon">
-<img src="/images/behance.png" alt="behance">
-<img src="/images/pinterest.png" alt="pinterest">
-<img src="/images/flickr.png" alt="flickr">
-<br><br>
-<br>
-<p>DELANI STUDIO</p>
-<p>2019</p>
-</footer>  
+                    <!-- Email address input -->
+                    <div class="col">
+                        <label class="form-label" for="emailAddress"></label>
+                        <input class="form-control transparent-input" id="emailAddress" type="email"
+                               placeholder="Email..." data-sb-validations="required, email"/>
+                    </div>
+                </div>
+                <!-- Message input -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label class="form-label" for="message"></label>
+                        <textarea class="form-control transparent-input" id="message" type="text"
+                                  placeholder="Your message here...." style="height: 10rem;"
+                                  data-sb-validations="required"></textarea>
+                    </div>
 
-    <script src="app.js"></script>
-</body>  
-</html> 
+                    <!-- Form submit button -->
+                    <div class="d-grid">
+                        <button class="btn btn-light btn-lg transparent-input " type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center text-black">
+        <!-- Grid container -->
+        <div class="container p-3">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Twitter -->
+                <img src="assets/social_icons/twitter.png" alt="twitter">
+                <img src="assets/social_icons/dribble.png" alt="dribble">
+                <img src="assets/social_icons/facebook.png" alt="facebook">
+                <img src="assets/social_icons/g_plus.png" alt="g_plus">
+                <img src="assets/social_icons/skype.png" alt="skype">
+                <img src="assets/social_icons/stumble_upon.png" alt="stumble_upon">
+                <img src="assets/social_icons/behance.png" alt="behance">
+                <img src="assets/social_icons/pinterest.png" alt="pinterest">
+                <img src="assets/social_icons/flickr.png" alt="flickr">
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0);">
+            DELANI STUDIO<br>
+            2019
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
 
-    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
